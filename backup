@@ -1,0 +1,32 @@
+ <!-- 
+                        <span><img id="friendReq" src="images/friend_Request.png" width="35" height="35"></span>
+                    
+                   
+                        <span><i class="icon fab fa-facebook-messenger" style="padding :20px"></i></span>
+                    
+                    <img src="images/notification.png" width="50" height="50">
+                    <i class="icon1 fas fa-angle-down"></i> -->
+
+
+                    <section id="left-section">
+        <div class="container">
+            <div    class="row">
+                <div id="intro"  class="col-3">
+
+                </div>
+                <div  id="friends" class="col-7">
+                        
+                    </div>
+            </div>
+            <div class="row">
+                <div  id="photos" class="col-3">
+                    
+                </div>
+            </div>
+            <div class="row">
+                    
+                </div>
+        </div>
+    </section>
+
+    https://youtu.be/DdL9-NhXL6k

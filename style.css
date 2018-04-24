@@ -1,0 +1,157 @@
+.root{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+    background: #e9ebee;
+}
+
+/*********************** MAIN HEADER *************************/
+
+#main-header{
+    width: 100vw;
+    height: 7vh;
+    border-bottom: 1px solid #394866;
+    color: white;
+    background-color: #3b5998;
+    padding: 1.2vh;
+    padding-left: 11vh;
+}
+
+.input-group{
+    padding-top: 0.4vh;
+}
+
+#main-header input{
+    width:67vmin;
+    height: 4vh;
+}
+
+#main-header .input-group-text{
+    height: 4.01vh;
+}
+
+#profilePic{
+    border-radius: 999px;
+    
+}
+
+#header-icons{
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+#header-icons .icon{
+    font-size: 2em;
+    color: black;
+    margin-left: 0.7rem;
+}
+
+
+#header-icons .icon1{
+    font-size: 0.8em;
+    color: black;
+}
+
+#header-icons span{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.firstName{
+    padding-right: 1rem;
+    border-right: 1px solid #1c4191;
+    cursor: pointer;
+}
+
+.topHome{
+    padding-left: 1rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+#friendReq{
+    position: relative;;
+}
+
+/********************************* General Info ********************************/
+
+
+
+#coverPhoto{
+    height: 52vh;
+    width:67.7vw;
+    padding-top: 0;
+}
+
+#profilePhoto{
+    position: absolute;
+    margin-left: 2em;
+    top:11em;
+    z-index: 1;
+    border: 5px solid white;
+}
+
+#fullName{
+    position: absolute;
+    left:25vw;
+    top: 20em;
+    color: white;
+}
+
+#coverBottom{
+    width: 50vw;;
+    height: 8.5vh;
+    border: 1px solid rgba(165,165,165,0.8);
+    padding-top:15px;
+    background: white;
+}
+
+#coverBottom span{
+    font-size: 1rem;
+    padding-top:19px;
+    padding-bottom: 19px;
+    padding-right: 19px;
+    padding-left: 11px;
+    border-right: 1px solid rgba(165,165,165,0.2);
+    color: #3b5998;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#coverBottom span:hover{
+    background: rgba(165,165,165,0.2);
+}
+
+#coverBottom span .total_count{
+    color: gray;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+
+/***********************************************************************************/
+
+#About{
+    padding:20px;
+}
+
+
+
+#friends{
+    background: white;
+    height: 80vh;
+    border: 1px solid rgba(165,165,165,0.8);
+}
+
+.friendCard{
+    height: 15vh;
+    background:white;
+    border: 1px solid rgba(165,165,165,0.8);
+    margin-top:20px;
+    margin-left: 40px;
+   
+}

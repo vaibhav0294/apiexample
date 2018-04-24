@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <script src="javascript/lib/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+
+
+
+    <link rel="shortcut icon " href="images/download.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+
+    <title>Facebook</title>
+
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-xs-2">
+                    <img src="images/facebook.jpg" width="40px">
+                </div>
+                <form id="inut-bar" class="col-xs-4">
+                    <div class="input-group">
+                        <input id="searchInput" type="search" class="form-control form-control-sm" id="formGroupExampleInput" placeholder=" Search">
+                        <div class="input-group-append">
+                            <span class="input-group-text" style="cursor:pointer">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <div id="header-icons" class="col-xs-6 offset-2">
+                    <img id="profilePic" src="" alt="profile pic" width="30" height="30">
+                    <span class="firstName" onclick="profilePage()"></span>
+                    <span class="topHome" onclick="homePage()">Home</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="row">
+        <div class="col-5 offset-2">
+            <div id="makePost">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top">
+                            <span class="make">Make Post</span>
+                            <span>Phooto/Video Album</span>
+                            <span>Live Video</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="sectionId">
+        <div class="row">
+            <div id="news_feed" class="col-5 offset-2">
+                <div id="myCard">
+                    <div class="top">
+                        <div class="d-inline">
+                            <img class="pic" src="" width="30" height="30" alt="pic"> 
+                        </div>
+                        <div class="story d-inline ">
+                            <span></span><i style="float:right" class="fas fa-ellipsis-h"></i>
+                       </div>
+                    </div>
+                    <img id="picture" src="" width="300" height="300">
+                    <div class="bottom">
+                        <span><i style=" font-size: 20px" class="far fa-thumbs-up"></i> Like</span>
+                        <span><i style=" font-size: 20px" class="far fa-comment-alt"></i> Comment</span>
+                        <span><i style=" font-size: 20px" class="fas fa-share"></i> Share</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="text/javascript" src="home.js"></script>
+</body>
+
+</html>

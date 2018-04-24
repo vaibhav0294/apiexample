@@ -1,0 +1,65 @@
+#makePost{
+    width: 92%;
+    height: 20vh;
+    background: white;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+#makePost .top{
+    height: 5.5vh;
+    background: #f6f7f9;
+    border-bottom: 1px solid #dddfe2;
+    border-radius: 2px 2px 0 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #3b5998;
+    font-size: 14px;
+}
+
+.top span{
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.make{
+    cursor: pointer;
+}
+
+#myCard{
+    width: 92%;
+    height: 100vh;
+    margin: 20px;
+    background: white;
+}
+
+#mycard .top{
+    padding : 20px;
+}
+
+#myCard .pic{
+    border-radius: 999px;
+}
+
+#myCard .bottom{
+    border-top: 1px solid #dddfe2;
+    padding: 20px;
+    color: rgba(78, 78, 78, 0.8);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bottom span{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.bottom span i{
+    font-size: 24px;
+}
+
+#picture{
+    padding: 20px;
+    width: 100%;
+    height: 80%;
+}

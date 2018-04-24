@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <script src="javascript/lib/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+
+
+
+    <link rel="shortcut icon " href="images/download.png" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Facebook</title>
+
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-xs-2">
+                    <img src="images/facebook.jpg" width="40px">
+                </div>
+                <form id="inut-bar" class="col-xs-4">
+                    <div class="input-group">
+                        <input id="searchInput" type="search" class="form-control form-control-sm" id="formGroupExampleInput" placeholder=" Search">
+                        <div class="input-group-append">
+                            <span class="input-group-text" style="cursor:pointer">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <div id="header-icons" class="col-xs-6 offset-2">
+                    <img id="profilePic" src="" alt="profile pic" width="30" height="30">
+                    <span class="firstName" onclick="profilePage()"></span>
+                    <span class="topHome " onclick="homePage()">Home</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="generalInfo">
+        <div class="container">
+            <div class="row no-gutters">
+                <div id="coverPhoto" class="col-xs-12">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <img src="" id="profilePhoto" width="195" height="195">
+                        </div>
+                        <div id="fullName" class="col-4">
+                        </div>
+                    </div>
+                </div>
+                <div id="coverBottom" class="col-10">
+                    <div class="row">
+                        <div class="col-12 offset-3">
+                            <span style="border-left: 1px solid rgba(165,165,165,0.2 )">Timeline</span>
+                            <span>About</span>
+                            <span>Friends
+                                <div class="total_count d-inline"> </div>
+                            </span>
+                            <span>Photos</span>
+                            <span>More
+                                <i class="fas fa-caret-down"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
